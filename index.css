@@ -1,0 +1,223 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    background-color: rgba(18, 116, 235, 0.507);
+}
+
+.topo {
+    text-align: center;
+}
+
+.open {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    margin: 15px;
+    color: white;
+    padding: 2px 2px 2px;
+}
+
+@font-face {
+    font-family: dalek;
+    src: url(../Dalek.ttf);
+}
+
+@font-face {
+    font-family: rusticus;
+    src: url(../RusticusStd.otf);
+}
+
+header {
+    font-family: dalek;
+    background-image: url('C:\\Users\\edsil\\Desktop\\trabalho2-atualizado-main\\trabalho2-atualizado-main\\Untitled.png');
+    background-size: cover;
+    color: white;
+    padding: 20px 0;
+}
+
+nav {
+    background: linear-gradient(#707070, #000000); /* Use a função linear-gradient para criar um fundo degradê */
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+nav a {
+    background: #00000070;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    text-decoration: underline;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    padding: 12px 10px 12px 32px;
+}
+
+nav a:hover {
+    color: #ffb8b8;
+    background-color: rgb(0, 10, 53);
+    padding: 6px 10px 6px 16px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 250px;
+}
+
+.container2 {
+    background-image: url(../ilustracao-do-monte-olimpo-com-grandes-templos-e-estetica-moderna-de-criaturas-miticas_818261-5667.avif);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: rusticus;
+}
+
+.container p {
+    background-color: white;
+    background-size: 50px;
+    font-size: 18px;
+    line-height: 1.5;
+    border-radius: 10px;
+}
+.container li{
+    background-color: white;
+    background-size: 50px;
+    border-radius: 10px;
+}
+
+#menu {
+    width: 250px;
+}
+
+#conteudo {
+    margin-left: 250px;
+}
+
+/* Media query para telas menores (máximo de 768px) */
+@media (max-width: 768px) {
+    #menu {
+        width: 100%;
+        background: #333; /* Altere a cor de fundo para uma melhor visibilidade */
+    }
+
+    #conteudo {
+        margin-left: 0;
+    }
+
+    header {
+        background-image: url('Caminho-Para-Imagem-Responsiva.jpg'); /* Substitua pelo caminho da imagem de cabeçalho responsiva */
+    }
+
+    /* Outros ajustes de estilo para telas menores */
+}
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+footer{
+    background-color: #01125c;
+    padding: 50px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h3{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #cecdcd;
+    padding-left: 10px;
+}
+.footer-col .grupossociais{
+    margin-top: 30px;
+}
+.footer-col .grupossociais a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 50px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+}
+.footer-col .grupossociais a i{
+    font-size: 20px;
+}
+
+.footer-col .grupossociais a:hover{
+    color: #415aca;
+    background-color: white;
+}
+      
+
+/* responsividade do footer */
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
+    }
+}
+
+/* footer termina aqui */
+
