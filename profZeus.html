@@ -42,6 +42,15 @@
             padding: 20px;
         }
 
+        .container h2 {
+
+            margin: 0 0 20px 0;
+        }
+
+        .container li {
+            margin: 0 25px 10px 15px;
+        }
+
         h1 {
             font-size: 36px;
         }
@@ -49,7 +58,87 @@
         p {
             font-size: 18px;
             line-height: 1.5;
+            margin: 0 25px 20px 0;
         }
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        footer {
+            background-color: #01125c;
+            padding: 50px 0;
+        }
+
+        .container-footer {
+            max-width: 1400px;
+            padding: 0 4%;
+            margin: auto;
+        }
+
+        .row-footer {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .footer-col {
+            width: 25%;
+            padding: 0 15px;
+        }
+
+        .footer-col h3 {
+            font-size: 22px;
+            color: white;
+            margin-bottom: 20px;
+            font-weight: 500;
+            position: relative;
+            text-transform: uppercase;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col ul li {
+            margin: 10px 0;
+        }
+
+        .footer-col ul li a {
+            font-size: 16px;
+            text-transform: capitalize;
+            color: white;
+            text-decoration: none;
+            font-weight: 300;
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+        .footer-col ul li a:hover {
+            color: #cecdcd;
+            padding-left: 10px;
+        }
+
+
+        /* responsividade do footer */
+        @media (max-width: 800px) {
+            .footer-col {
+                width: 50%;
+                margin-bottom: 30px;
+            }
+        }
+
+        @media (max-width:600px) {
+            .footer-col {
+                width: 100%;
+            }
+        }
+
+        /* footer termina aqui */
     </style>
 
 </head>
@@ -71,49 +160,53 @@
 
         <h1>Curriculo profissional</h1>
 
-        <h2>Zeus Raio</h2>
-        <p>end: olimpo</p>
+        <h2>Nome: Zeus Mcqueen</h2>
+        <p>Endereço: olimpo</p>
         <p>Email: Zeus@cursofree.com</p>
         <p>Telefone: +55 (81) 95456-7890</p>
 
         <h2>Resumo profissional</h2>
 
-        <p>Designer criativo e apaixonado com mais de 8 anos de experiência em design gráfico e de produtos. Especializado em criar
-        soluções visuais impactantes que atendem às necessidades do cliente e aumentam a identidade de marca. Habilidades em
-        design de logotipo, identidade visual, design de interface de usuário, ilustração e muito mais.</p>
+        <p>Designer criativo e apaixonado com mais de 8 anos de experiência em design gráfico e de produtos.
+            Especializado em criar
+            soluções visuais impactantes que atendem às necessidades do cliente e aumentam a identidade de marca.
+            Habilidades em
+            design de logotipo, identidade visual, design de interface de usuário, ilustração e muito mais.</p>
 
         <h2>Experiência profissional</h2>
 
         <p>Designer Sênior de Produto
-        Empresa de Design Olimpiano
-        Olimpo, Ceus
-        Janeiro de 2020 - Presente</p>
+            Empresa de Design Olimpiano
+            Olimpo, Ceus
+            Janeiro de 2020 - Presente</p>
 
-        <li>Liderou uma equipe de designers juniores no desenvolvimento de interfaces de usuário para aplicativos móveis e web
+        <li>Liderou uma equipe de designers juniores no desenvolvimento de interfaces de usuário para aplicativos móveis
+            e web
             premiados.</li>
 
-        <li>Criou e implementou estratégias de design centradas no usuário, aumentando a satisfação do cliente em 30%.</li>
+        <li>Criou e implementou estratégias de design centradas no usuário, aumentando a satisfação do cliente em 30%.
+        </li>
 
-        <li>Colaborou com a equipe de desenvolvimento para garantir a consistência da experiência do usuário em todos os produtos.</li>
+        <li>Colaborou com a equipe de desenvolvimento para garantir a consistência da experiência do usuário em todos os
+            produtos.</li>
 
         <p>Designer Gráfico Sênior
-                Agência Criativa Olimpiano
-                Olimpo, Ceus
-                Abril de 2015 - Dezembro de 2019</p>
-                
-        <li>Desenvolveu identidades visuais e materiais de marketing para uma variedade de clientes, incluindo empresas de
-                    tecnologia, varejo e saúde.</li>
-                
+            Agência Criativa Olimpiano
+            Olimpo, Ceus
+            Abril de 2015 - Dezembro de 2019</p>
+
+        <li>Desenvolveu identidades visuais e materiais de marketing para uma variedade de clientes, incluindo empresas
+            de
+            tecnologia, varejo e saúde.</li>
+
         <li>Gerenciou projetos do conceito à entrega, garantindo prazos e orçamentos dentro do esperado.</li>
-                
+
         <li>Colaborou com redatores e diretores de arte para criar campanhas publicitárias bem-sucedidas.</li>
 
         <h2>EDUCAÇÃO:</h2>
 
-        <p>Bacharelado em Design Gráfico
-            Universidade Olimpiano
-            Olimpo, Ceus
-            Conclusão: Maio de 2012</p>
+        <p>Bacharelado em Design Digital | Universidade Estadifício, Rain , Baviera-GE | Ano de conclusão: Sem
+            informações</p>
 
         <h2>HABILIDADES TÉCNICAS:</h2>
 
@@ -126,10 +219,51 @@
         <li>Animação gráfica</li>
         <li>Gerenciamento de projetos</li>
         <li>Compreensão de HTML e CSS básicos</li>
-        
+
 
     </div>
+    <footer>
+        <div class="container-footer">
+            <div class="row-footer">
 
+                <div class="footer-col">
+                    <h3>Olímpia Cursos</h3>
+                    <ul>
+                        <li><a href="Quemsomos.html"> Quem somos </a></li>
+                        <li><a href="politicaspriv.html"> política de privacidade </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Nossos Cursos</h3>
+                    <ul>
+                        <li><a href="curso.html">Design</a></li>
+                        <li><a href="curso2.html">Desenvolvi. Web</a></li>
+                        <li><a href="curso3.html">Marketing Digital</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Professores</h3>
+                    <ul>
+                        <li><a href="profAdes.html">Prof. Ades</a></li>
+                        <li><a href="profPoseidon.html">Prof. Poseidon</a></li>
+                        <li><a href="profZeus.html">Prof. Zeus</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/groups/311504391728581">Whatsapp</a></li>
+                        <li><a href="https://www.instagram.com/olimpiacursos/">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/groups/311504391728581">Facebook</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
