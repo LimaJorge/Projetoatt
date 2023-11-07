@@ -88,6 +88,7 @@ h1 {
 h2 {
     font-size: 36px;
     font-family: rusticus;
+    margin: 0 25px 20px 0;
 }
 
 .container p {
@@ -96,11 +97,13 @@ h2 {
     font-size: 18px;
     line-height: 1.5;
     border-radius: 10px;
+    margin: 0 25px 20px 0;
 }
 .container li{
     background-color: white;
     background-size: 50px;
     border-radius: 10px;
+    margin: 0 25px 10px 15px;
 }
 
 #menu {
@@ -143,24 +146,26 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 footer{
-    background-color: #01125c;
+    background-color: rgba(18, 116, 235, 0.507);
     padding: 50px 0;
 }
-.container-footer{
+.container-footer {
     max-width: 1400px;
     padding: 0 4%;
     margin: auto;
 }
-.row-footer{
+
+.row-footer {
     display: flex;
     flex-wrap: wrap;
 }
 
-.footer-col{
+.footer-col {
     width: 25%;
     padding: 0 15px;
 }
-.footer-col h3{
+
+.footer-col h3 {
     font-size: 22px;
     color: white;
     margin-bottom: 20px;
@@ -168,13 +173,16 @@ footer{
     position: relative;
     text-transform: uppercase;
 }
-.footer-col ul{
+
+.footer-col ul {
     list-style: none;
 }
-.footer-col ul li{
+
+.footer-col ul li {
     margin: 10px 0;
 }
-.footer-col ul li a{
+
+.footer-col ul li a {
     font-size: 16px;
     text-transform: capitalize;
     color: white;
@@ -183,48 +191,25 @@ footer{
     display: block;
     transition: all 0.3s ease;
 }
-.footer-col ul li a:hover{
+
+.footer-col ul li a:hover {
     color: #cecdcd;
     padding-left: 10px;
 }
-.footer-col .grupossociais{
-    margin-top: 30px;
-}
-.footer-col .grupossociais a{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    width: 40px;
-    margin: 0 50px 10px 0;
-    text-decoration: none;
-    border-radius: 50%;
-    color: white;
-    border: 1px solid white;
-    transition: all 0.5s ease;
-}
-.footer-col .grupossociais a i{
-    font-size: 20px;
-}
 
-.footer-col .grupossociais a:hover{
-    color: #415aca;
-    background-color: white;
-}
-      
 
 /* responsividade do footer */
 @media (max-width: 800px) {
-    .footer-col{
+    .footer-col {
         width: 50%;
         margin-bottom: 30px;
     }
 }
+
 @media (max-width:600px) {
-    .footer-col{
+    .footer-col {
         width: 100%;
     }
 }
 
 /* footer termina aqui */
-
